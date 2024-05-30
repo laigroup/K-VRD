@@ -9,7 +9,8 @@ The model comprises two modules: logic tensor networks encoded negative domain o
 # Using Code
 -   The  `models`  folder contains the trained grounded theories of the experiments;
 -   The  `Visual-Relationship-Detection-master`  folder contains the object detector model and the evaluation code provided in  [https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection](https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection)  for the evaluation of the phrase, relationship and predicate detection tasks on the VRD.
--  The  `data`  folder contains the data which can be downloaded from https://cs.stanford.edu/people/ranjaykrishna/vrd/ and https://github.com/commonsense/conceptnet-numberbatch
+-  The  `data`  folder contains the data which can be downloaded from https://cs.stanford.edu/people/ranjaykrishna/vrd/
+-  The  ConceptNet can be downloaded from https://github.com/commonsense/conceptnet-numberbatch
 
 ## Requirements
 
