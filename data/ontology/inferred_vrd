@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/donadello/ontologies/2018/5/untitled-ontology-66#"
+     xml:base="http://www.semanticweb.org/donadello/ontologies/2018/5/untitled-ontology-66"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/donadello/ontologies/2018/5/untitled-ontology-66"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#above -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#above">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#over"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#over"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#below"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#across -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#across">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#adjacent_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#adjacent_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#against -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#against">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#attach_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#attach_to">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#behind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#behind">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in_the_front_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#below -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#below">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beneath"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beneath"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#over"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beneath -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beneath">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#above"/>
+                <owl:equivalentProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#over"/>
+                    </rdf:Description>
+                </owl:equivalentProperty>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#below"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#carry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#carry">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#contain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#contain">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#cover -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#cover">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on_the_top_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#drive -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#drive">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#inside"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#outside_of"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#drive_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#drive_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#eat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#eat">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#face -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#face">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#feed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#feed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#fly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#fly">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#follow -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#follow">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#has">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#hit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#hit">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#hold -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#hold">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#inside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#inside"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#outside_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in_the_front_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in_the_front_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#inside -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#inside">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#outside_of"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#outside_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#kick -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#kick">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#hit"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#lean_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#lean_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#look -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#look">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#lying_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#lying_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at"/>
+                <owl:equivalentProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by"/>
+                        <owl:equivalentProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near"/>
+                            </rdf:Description>
+                        </owl:equivalentProperty>
+                    </rdf:Description>
+                </owl:equivalentProperty>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+                <owl:equivalentProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+                    </rdf:Description>
+                </owl:equivalentProperty>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#at"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#by"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#near"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#above"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#over"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#below"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beneath"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on_the_left_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on_the_left_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on_the_right_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on_the_right_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on_the_right_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on_the_top_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on_the_top_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#outside_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#outside_of">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in"/>
+                <owl:equivalentProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#inside"/>
+                    </rdf:Description>
+                </owl:equivalentProperty>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#over -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#over">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#below"/>
+                <owl:equivalentProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beneath"/>
+                    </rdf:Description>
+                </owl:equivalentProperty>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#above"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#park_behind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#park_behind">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#behind"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in_the_front_of"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#park_next -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#park_next">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#park_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#park_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#play_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#play_with">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#pull -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#pull">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#rest_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#rest_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#ride -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#ride">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sit_behind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sit_behind">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#behind"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in_the_front_of"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sit_next_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sit_next_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sit_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sit_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sit_under -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sit_under">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#under"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#skate_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#skate_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sleep_next_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sleep_next_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sleep_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#sleep_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#rest_on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#stand_behind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#stand_behind">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#behind"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#in_the_front_of"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#stand_next_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#stand_next_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#stand_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#stand_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#on"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#stand_under -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#stand_under">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#under"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#talk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#talk">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#taller_than -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#taller_than">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#touch -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#touch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#under -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#under">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#below"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beneath"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#above"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#over"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#use">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk_beside -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk_beside">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk_next_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk_next_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#beside"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#next_to"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk_past -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk_past">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#walk_to">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#watch -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#watch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#wear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#wear">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#has"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/donadello/ontologies/2017/6/VRD#with">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

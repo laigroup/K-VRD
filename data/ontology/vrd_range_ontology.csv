@@ -1,0 +1,70 @@
+on
+wear,jacket,pants,shoes,shirt,glasses,hat,watch,helmet,coat,sunglasses,jacket,jeans,shorts,tie,skis,shoe,not traffic_light,not plate
+has,not person
+next to
+sleep next to
+sit next to
+stand next to
+park next,building,ramp,road,roof,street,tower,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van,bush,grass,plant,tree,trees
+walk next to,building,ramp,road,roof,street,tower,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van,person,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+above
+behind,not grass
+stand behind,not grass
+sit behind,not grass
+park behind,not grass
+in the front of
+under
+stand under,not person
+sit under
+near
+walk to
+walk,bear,cat,dog,elephant,giraffe,horse,person,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+walk past,road,grass,street
+in,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe,not grass
+below,not road
+beside,not road
+walk beside,building,ramp,road,roof,street,tower,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van,person,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+over
+hold,not grass
+by
+beneath
+with
+on the top of,not grass,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+on the left of
+on the right of
+sit on,table,chair,sofa,bench,bed,motorcycle
+ride,motorcycle,bike,horse,skateboard,elephant,snowboard,surfboard,not glasses,not bus,not truck
+carry
+look
+stand on,not person
+use
+at
+attach to
+cover,person
+touch
+watch
+against
+inside
+adjacent to
+across
+contain
+drive,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van
+drive on,street,road,not person
+taller than,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe,not grass
+eat,pizza,not chair,not person
+park on,street,road,grass,not helmet,not pillow
+lying on,street,road,chair,grass,sofa,bed,pillow
+pull,luggage,suitcase,bag,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van
+talk,person,phone,not watch
+lean on
+fly,kite,sky
+face,not bus
+play with,bear,cat,dog,elephant,giraffe,horse,person,ball,kite,skateboard,skis,snowboard,surfboard
+sleep on,sofa,pillow,bench,bed
+outside of,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van,building,ramp,road,roof,street,tower
+rest on,not post
+follow,bear,cat,dog,elephant,giraffe,horse,person,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van
+hit,ball
+feed,bear,cat,dog,elephant,giraffe,horse,person,bush,grass,plant,tree,trees,not hat
+kick,ball
+skate on,road,skateboard,street,ramp

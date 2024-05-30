@@ -1,0 +1,70 @@
+on
+wear,person,not pizza,not bag
+has
+next to
+sleep next to,bear,cat,dog,elephant,giraffe,horse,person,not phone
+sit next to,bear,cat,dog,elephant,giraffe,horse,person,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+stand next to,bear,cat,dog,elephant,giraffe,horse,person,not bus
+park next,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van
+walk next to,person,not laptop,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+above
+behind
+stand behind,bear,cat,dog,elephant,giraffe,horse,person,not bus
+sit behind,bear,cat,dog,elephant,giraffe,horse,person,not paper,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+park behind,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van
+in the front of
+under
+stand under,bear,cat,dog,elephant,giraffe,horse,person,not cup,not bus
+sit under,person,bear,cat,dog,elephant,giraffe,horse,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+near
+walk to,bear,cat,dog,elephant,giraffe,horse,person,not paper,not basket,not bag,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+walk,person,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+walk past,bear,cat,dog,elephant,giraffe,horse,person,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+in,sky
+below
+beside
+walk beside,person,not chair,not ball,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+over
+hold,person,not luggage,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+by
+beneath
+with
+on the top of,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+on the left of
+on the right of
+sit on,person,bear,cat,dog,elephant,giraffe,horse,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+ride,person,not glasses,not face,not bus,not motorcycle
+carry,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van,bear,cat,dog,elephant,giraffe,horse,person
+look,bear,cat,dog,elephant,giraffe,horse,person,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+stand on,bear,cat,dog,elephant,giraffe,horse,person,not bus
+use,bear,cat,dog,elephant,giraffe,horse,person,not table
+at
+attach to
+cover
+touch,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+watch,bear,cat,dog,elephant,giraffe,horse,person,not traffic_light
+against
+inside
+adjacent to
+across
+contain,box,pot,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van
+drive,person,not car
+drive on,person,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van,not hat,not trees
+taller than,not jacket,not pants,not shoes,not shirt,not glasses,not hat,not watch,not helmet,not coat,not sunglasses,not jacket,not jeans,not shorts,not tie,not skis,not shoe
+eat,bear,cat,dog,elephant,giraffe,horse,person,not table,not ball
+park on,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van,not bear,not bed
+lying on
+pull,person,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van,not phone,not shirt,bear,cat,dog,elephant,giraffe,horse
+talk,person
+lean on,motorcycle,bike,person,not mouse
+fly,person,plane,kite,airplane
+face,bear,cat,dog,elephant,giraffe,horse,person,not road
+play with,bear,cat,dog,elephant,giraffe,horse,person
+sleep on,bear,cat,dog,elephant,giraffe,horse,person
+outside of
+rest on,bear,cat,dog,elephant,giraffe,horse,person,not bus
+follow,bear,cat,dog,elephant,giraffe,horse,person,airplane,bike,boat,bus,car,motorcycle,plane,train,truck,van
+hit,person,not basket
+feed,person
+kick,person
+skate on,person

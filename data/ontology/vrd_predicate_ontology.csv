@@ -1,0 +1,70 @@
+on,above,over,irreflex,asymm,not behind,not under,not sit under,not sleep next to,not next to,not stand next to,not walk next to,not follow,not wear,not pull,not beside,not in,not in the front of,not park next,not on the left of,not on the right of
+above,over,inv below,irreflex,asymm,not pull,not behind,not next to
+across,irreflex,asymm
+adjacent to,near,next to,at,by,irreflex,symm,not under,not beneath
+against,irreflex
+at,near,by,irreflex
+attach to,irreflex
+behind,irreflex,not beside,inv in the front of,asymm,not sit on,not next to,not on,not on the left of,not ride,not stand next to,not lying on,not in,not above,not on the right of
+below,inv above,inv over,irreflex,asymm,not follow,beneath,not next to
+beneath,below,not has,irreflex,asymm,not adjacent to
+beside,not behind,not in the front of,irreflex,symm,next to,not in,not on,not in the front of
+by,near,at,irreflex
+carry,irreflex,asymm
+contain,irreflex,asymm,not in the front of
+cover,on the top of,on,over,above,irreflex,asymm
+drive,inside,in,irreflex,asymm
+drive on,on,irreflex,above,over,asymm
+eat,irreflex,asymm
+face,irreflex,asymm
+feed,irreflex,not wear
+fly,irreflex,asymm,not park on
+follow,irreflex,asymm,not below,not on
+has,irreflex,asymm,not beneath,not pull,not park on
+hit,irreflex
+hold,irreflex,asymm
+in,inside,inv outside of,irreflex,asymm,not under,not on the top of,not behind,not beside,not ride,not on,not sit on,not next to,not watch,not in the front of
+in the front of,inv behind,not beside,irreflex,not next to,not contain,not in,not sit behind,not on,not on the right of,not on the left of
+inside,in,inv outside of,irreflex,asymm
+kick,hit,irreflex,asymm
+lean on,on,above,over,irreflex,asymm
+look,irreflex
+lying on,on,above,over,irreflex,asymm,not behind
+near,at,by,irreflex,symm
+next to,near,at,by,irreflex,symm,not sit on,not sit behind,not in the front of,not behind,not on,beside,not in,not below,not under,not above,not over
+on the left of,beside,inv on the right of,irreflex,asymm,not behind,not in the front of,not on
+on the right of,beside,inv on the left of,irreflex,asymm,not behind,not in the front of,not on
+on the top of,on,above,over,irreflex,asymm,not sleep next to,not in
+outside of,inv inside,inv in,irreflex,asymm
+over,above,inv below,irreflex,asymm,not next to
+park behind,behind,irreflex,asymm
+park next,next to,near,at,by,irreflex,not on
+park on,on,above,over,irreflex,asymm,not under,not has,not fly
+play with,irreflex
+pull,irreflex,asymm,not has,not on,not above
+rest on,on,above,over,irreflex,asymm
+ride,irreflex,on,asymm,not behind,not in
+sit behind,behind,irreflex,asymm,not sit next to,not next to,not in the front of
+sit next to,next to,near,at,by,irreflex,not sit behind
+sit on,on,above,over,irreflex,asymm,not next to,not behind,not in
+sit under,under,beneath,below,irreflex,not on
+skate on,on,above,over,irreflex,asymm
+sleep next to,next to,near,at,by,irreflex,not sleep on,not behind,not on,not on the top of
+sleep on,on,rest on,over,above,irreflex
+stand behind,behind,irreflex,asymm
+stand next to,next to,near,at,by,irreflex,not on,not behind
+stand on,on,above,over,irreflex,asymm
+stand under,under,beneath,below,irreflex
+talk,irreflex,asymm
+taller than,irreflex,asymm
+touch,irreflex
+under,below,beneath,irreflex,asymm,not on,not adjacent to,not in,not park on,not next to
+use,irreflex,asymm
+walk,irreflex,asymm
+walk beside,irreflex,asymm
+walk next to,next to,by,near,at,irreflex,asymm,not on
+walk past,irreflex,asymm
+walk to,irreflex,asymm
+watch,irreflex,not in
+wear,has,irreflex,asymm,not feed,not on
+with,irreflex,asymm

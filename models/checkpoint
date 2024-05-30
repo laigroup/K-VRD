@@ -1,0 +1,2 @@
+model_checkpoint_path: "KB_wc_mul_noto_2500.ckpt"
+all_model_checkpoint_paths: "KB_wc_mul_noto_2500.ckpt"
